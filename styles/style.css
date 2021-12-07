@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fontes/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Merriweather-bold;
+    src: url(../fontes/Merriweather-Bold.ttf)
+}
+
+@font-face {
+    font-family: Merriweather-regular;
+    src: url(../fontes/Merriweather-Regular.ttf)
+}
+
+
+#header{
+    width: 100vw;
+    height: 60vh;
+    background-color: var(--bgSite);
+}
+
+.header-content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-content-text {
+    width: 25%;
+    margin-left: 140px;
+}
+
+.header-content-text h1 {
+    color: var(--title);
+    font-size: 3.5rem;
+}
+
+.header-content-text p {
+    color: var(--text)
+}
+.header-content-text h1,p {
+    margin-bottom: 25px;
+}
+
+.header-content-text button {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: var(--buttonColor);
+}
+
+.header-content-img {
+    width: 25%;
+   
+    margin-right: 140px;
+ 
+}
+
+
+ /* Sessão dos cards */
+
+
+ .section-cards {
+     width: 100vw;
+     height: 80vh;
+     background-color: blue;
+ } 
